@@ -17,97 +17,100 @@
         </div>
         <div class="corpo">
           <p class="titulo maior">Primeiro, seu prato</p>
-          <div class="prato_principal">
-            <div class="prato um">
+          <div class="prato_principal" >
+            <div  class="prato um " onclick="selecao_java(this)">
               <img src="strogonoff.png" >
               <p>Strogonoff frango</p>
               <h5>Arroz, batata palha e strogonoff</h5>
-              <h6>R$ 18,90</h6>
+              <h6>R$ 18,90</h6> <span class="ok "> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato dois">
+            <div class="prato dois" onclick="selecao_java(this)">
               <img src="feijoada.jpg" >
               <p>Feijoada</p>
               <h5>Arroz, feijoada e laranja</h5>
-              <h6>R$ 24,90</h6>
+              <h6>R$ 24,90</h6> <span class="ok" > <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato tres">
+            <div class="prato tres" onclick="selecao_java(this)">
               <img src="lasanha.jpg" >
               <p>Lasanha a bolonhesa</p>
               <h5>Lasanha 500g</h5>
-              <h6>R$ 29,90</h6>
+              <h6>R$ 29,90</h6> <span class="ok"> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato quatro">
+            <div class="prato quatro" onclick="selecao_java(this)">
               <img src="empadao.jpg" >
               <p>Empadao de frango</p>
               <h5>empadão de frango 500g</h5>
-              <h6>R$ 29,90</h6>
+              <h6>R$ 29,90</h6> <span class="ok"> <img class="OKum" src="OK.png" ></span>
             </div>
             </div>
           
             <p class="titulo maior">Agora, sua bebida</p>
           <div class="prato_principal bebida">
-            <div class="prato um">
+            <div class="prato um" onclick="selecao_java_bebida(this)">
               <img src="coca-cola.webp" >
               <p>Coca-Cola 350ml</p>
               <h5>Coca lata geladinha!</h5>
-              <h6>R$ 3,90</h6>
+              <h6>R$ 3,90</h6>  <span class="ok_bebida "> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato dois">
+            <div class="prato dois" onclick="selecao_java_bebida(this)">
               <img src="suco.jpg" >
               <p>Dell Valle sabores</p>
               <h5>Uva, laranja, manga</h5>
-              <h6>R$ 4,90</h6>
+              <h6>R$ 4,90</h6>  <span class="ok_bebida "> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato tres">
+            <div class="prato tres" onclick="selecao_java_bebida(this)">
               <img src="agua.webp" >
               <p>Agua 500ml</p>
               <h5>Agua gelada</h5>
-              <h6>R$ 2,50</h6>
+              <h6>R$ 2,50</h6>  <span class="ok_bebida "> <img class="OKum" src="OK.png" ></span>
             </div>
            
           </div>
           <p class="titulo maior">Por fim, sua sobremesa</p>
-          <div class="prato_principal">
-            <div class="prato um">
+          <div class="prato_principal sobremesa">
+            <div class="prato um" onclick="selecao_java_sobremesa(this)">
               <img src="pudim.jpg" >
               <p>Pudim de leite</p>
               <h5>Pudinzinho para adoçar sua noite</h5>
-              <h6>R$ 5,90</h6>
+              <h6>R$ 5,90</h6>  <span class="ok_sobremesa"> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato dois">
+            <div class="prato dois" onclick="selecao_java_sobremesa(this)">
               <img src="sagu.jpg" >
               <p>Sagu de uva</p>
               <h5>Saguzinho delicioso!</h5>
-              <h6>R$ 7,90</h6>
+              <h6>R$ 7,90</h6>  <span class="ok_sobremesa "> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato tres">
+            <div class="prato tres" onclick="selecao_java_sobremesa(this)" >
               <img src="sorvete.jpg" >
               <p>Sorvete sabores</p>
               <h5>Sorvetinho para refrescar seu dia!</h5>
-              <h6>R$ 8,90</h6>
+              <h6>R$ 8,90</h6>  <span class="ok_sobremesa "> <img class="OKum" src="OK.png" ></span>
             </div>
-            <div class="prato quatro">
+            <div class="prato quatro" onclick="selecao_java_sobremesa(this)">
               <img src="pave.jpg" >
               <p>Pavê</p>
               <h5>Pavezinho divino</h5>
-              <h6>R$ 8,90</h6>
+              <h6>R$ 8,90</h6>  <span class="ok_sobremesa "> <img class="OKum" src="OK.png" ></span>
             </div>
             </div>
         </div>
 
         <div class="baixo">
           <div class="confirmacao">
-            <p>Selecione os 3 itens
+            <p class="selecione">Selecione os 3 itens
               para fechar o pedido</p>
+          </div>
+          <div class="confirmacao_final escondido">
+            <p>Fechar pedido</p>
           </div>
       </div>
     </div>
+    
 
 
 
 
 
 
-
-
+    <script src="scripts.js"></script>
     </body>
